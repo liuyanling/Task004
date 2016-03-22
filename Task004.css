@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    border: 1px solid #ccc;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content{
+    align-self: center;
+    background: #ccc;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.semi_circle1,.semi_circle2{
+    background:#fc0;
+    width: 50px;
+    height: 50px;
+}
+.semi_circle1{
+    border-radius: 0 0 50px 0 ;
+    -moz-border-radius: 0 0 50px 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.semi_circle2{
+    border-radius:50px 0 0 0 ;
+    -moz-border-radius:50px 0 0 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
